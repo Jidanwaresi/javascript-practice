@@ -372,5 +372,17 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 20. Leaderboard Ranking (Beginner - sort)
+// You are displaying a leaderboard of student names in alphabetical order (A-Z).
+// Current list:
+// let students = ["Zayan", "Aarav", "Kabir", "Diya"];
+// Task: Use the sort() method to arrange their names alphabetically from A to Z, 
+// and print the updated list.
 
+// sol:
+// let students = ["Zayan", "Aarav", "Kabir", "Diya"];
+// students.sort();
+// console.log(students);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
 
