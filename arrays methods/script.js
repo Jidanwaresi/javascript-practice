@@ -109,11 +109,34 @@
 
 // Write the code step-by-step for these 3 consecutive actions and print the final queue.
 
-// Sol:
-let queue = ["Rahul", "Aman", "Rohan"];
-queue.push("Sneha");
-queue.unshift("Kabir");
-queue.shift();
-console.log(queue);
+// // Sol:
+// let queue = ["Rahul", "Aman", "Rohan"];
+// queue.push("Sneha");
+// queue.unshift("Kabir");
+// queue.shift();
+// console.log(queue);
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+// 8. Gallery to Trash Bin (PRO Level - 2 Arrays)
+
+// On mobile phones, when we delete a photo, it doesn't disappear permanently;
+// it goes to the "Recently Deleted" (Trash) folder.
+// You have two arrays:
+// let gallery = ["Pic1.jpg", "Pic2.jpg", "Pic3.jpg"];
+// let trashBin = [];
+
+// Task: The user wants to delete their most recently taken photo (the last photo in the gallery). 
+// You need to remove that photo from the gallery array, and immediately add that exact photo to the trashBin array. 
+// (Hint: Keep in mind what the removing method returns). Print both gallery and trashBin at the end.
+
+
+//SOL:
+// let gallery = ["Pic1.jpg", "Pic2.jpg", "Pic3.jpg"];
+// let trashBin = [];
+// let deletePhoto = gallery.pop();
+// trashBin.unshift(deletePhoto);
+// console.log("Gallery : ", gallery);
+// console.log("Recycle Bin: ", trashBin);
 
 
