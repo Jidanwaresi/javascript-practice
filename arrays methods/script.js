@@ -315,3 +315,24 @@
 // console.log(completed);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 17. Music Playlist "Up Next" (Penalty 4 - Method inside Method)
+
+// You are managing a music app's queue.
+// let playlist = ["Song A", "Song B", "Song C"];
+// let upNext = ["Ad"];
+
+// Task: The user wants to play the very first song in the playlist right now, even before the "Ad". 
+// Remove the first song from the front of the playlist and instantly add it to the very front of the upNext array. 
+// Use the one-line optimization trick. 
+// Print both arrays.
+
+// sol:
+// let playlist = ["Song A", "Song B", "Song C"];
+// let upNext = ["Ad"];
+// upNext.unshift(playlist.shift());
+// console.log(playlist);
+// console.log(upNext);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
