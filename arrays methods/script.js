@@ -353,3 +353,24 @@
 // console.log(truck);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+//<--------SET 02------>//
+// 19. Product Update (Intermediate - splice)
+
+// You have an inventory list:
+// let inventory = ["Laptop", "Mouse", "Keyboard", "Monitor"];
+
+// You are informed that the item at index 2 is out of stock. 
+// You have a variable: let targetIndex = 2;
+// Task: You need to replace that specific item with "Headphones". 
+// Use the splice() method along with the targetIndex variable (do not hardcode the number 2 inside splice!) to remove the old item and insert "Headphones" in that exact position.
+// Print the updated inventory.
+// sol:
+// let inventory = ["Laptop", "Mouse", "Keyboard", "Monitor"];
+// let targetIndex = 2;
+// inventory.splice(targetIndex,1,"Headphone");
+// console.log(inventory);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
