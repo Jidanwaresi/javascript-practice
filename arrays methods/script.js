@@ -227,16 +227,36 @@
 // An emergency VIP passenger "Neha" arrives. She gets top priority, so add her to the very front of the waiting list.
 
 // sol:
-let waitingList = ["Aman", "Rahul", "Priya"];
-waitingList.shift();
-waitingList.push("Rohan");
-waitingList.pop();
-waitingList.unshift("Neha");
-console.log("final list: ", waitingList);
-
-
-
+// let waitingList = ["Aman", "Rahul", "Priya"];
+// waitingList.shift();
+// waitingList.push("Rohan");
+// waitingList.pop();
+// waitingList.unshift("Neha");
+// console.log("final list: ", waitingList);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 13. Browser History (PRO Level - 2 Arrays)
+// You are building a web browser's "Back" button logic using two arrays.
+// Current state:
+// let history = ["Google", "YouTube", "GitHub", "StackOverflow"];
+// let forwardStack = [];
+
+// Task: 
+// The user clicks the "Back" button. This means they are leaving the current page (the last item in history). 
+// You need to remove this last page from history and immediately push it into the forwardStack so they can go forward later if they want.
+// Print both arrays at the end. (Hint: Remember the optimization trick!).
+
+// //sol:
+// let history = ["Google", "YouTube", "GitHub", "StackOverflow"];
+// let forwardStack = [];
+// forwardStack.push(history.pop());
+// console.log(history);
+// console.log(forwardStack);
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
