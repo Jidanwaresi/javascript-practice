@@ -276,4 +276,21 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 15. Email Draft to Outbox (Penalty 2 - Method inside Method)
 
+// You are building an email client.
+// let drafts = ["Draft 1", "Draft 2", "Important Email"];
+// let outbox = ["Old Email"];
+
+// Task: 
+// The user clicks "Send" on their latest draft (the last item in drafts). 
+// Remove it from drafts and instantly add it to the very front (beginning) of the outbox array so it sends first.
+//  Use the one-line optimization trick (method inside a method). 
+// Print both arrays.
+
+// sol:
+let drafts = ["Draft 1", "Draft 2", "Important Email"];
+let outbox = ["Old Email"];
+outbox.unshift(drafts.pop());
+console.log(drafts);
+console.log(outbox);
