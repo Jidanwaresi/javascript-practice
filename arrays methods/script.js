@@ -185,7 +185,32 @@
 // console.log(queue);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 11. Restaurant Kitchen Display (Intermediate)
+
+// You are building a Kitchen Display System for a restaurant.
+// Current orders:
+// let orders = ["Table 2: Burger", "Table 5: Pizza"];
+// Task:
+
+// A new order comes in from Table 7 for "Pasta". Add it to the end of the queue.
+
+// The chef finishes cooking the first order ("Table 2: Burger"). Remove it from the queue.
+
+// A VIP customer at Table 1 orders a "Steak". The manager says it must be cooked immediately, so add it to the very front of the queue.
+
+// Write the code sequentially for these 3 steps and print the final orders array.
+
+// sol: 
+ let orders = ["Table 2: Burger", "Table 5: Pizza"];
+ orders.push("Table 7 : Pasta");
+ orders.shift();
+ orders.unshift("Table 1 : Steak");
+ console.log("final orders : ", orders); 
+ 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
