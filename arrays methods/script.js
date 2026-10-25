@@ -141,6 +141,21 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 9. Task Manager (Intermediate)
+// You are building a Task Management App (like Trello).
+// Current pending tasks:
+// let tasks = ["Fix bug", "Write documentation"];
+// Task:
+// A high-priority task "Server crash" arrives. It must be addressed immediately, so add it to the very front of the list.
+// You successfully complete the first task on the list. Remove it.
 
+// A new normal-priority task "Update CSS" comes in. Add it to the end of the list.
+// Write the code for these 3 steps sequentially and print the final tasks array.
 
-
+// sol:
+// let tasks = ["Fix bug", "Write documentation"];
+// tasks.unshift("Server crash");
+// console.log(tasks);
+// tasks.shift();
+// tasks.push("Update CSS");
+// console.log(tasks)
