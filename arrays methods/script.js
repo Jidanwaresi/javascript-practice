@@ -202,13 +202,39 @@
 // Write the code sequentially for these 3 steps and print the final orders array.
 
 // sol: 
- let orders = ["Table 2: Burger", "Table 5: Pizza"];
- orders.push("Table 7 : Pasta");
- orders.shift();
- orders.unshift("Table 1 : Steak");
- console.log("final orders : ", orders); 
- 
+//  let orders = ["Table 2: Burger", "Table 5: Pizza"];
+//  orders.push("Table 7 : Pasta");
+//  orders.shift();
+//  orders.unshift("Table 1 : Steak");
+//  console.log("final orders : ", orders); 
+
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 12. Train Ticket Waiting List (PRO Level - All 4 Methods)
+
+// English: You are managing a train ticket waiting list.
+// Current list:
+// let waitingList = ["Aman", "Rahul", "Priya"];
+
+// Task:
+// The first person in the line gets a confirmed ticket. Remove them from the front of the list.
+
+// A new passenger "Rohan" joins the waiting list at the end.
+
+// Suddenly, the person at the very end of the list realizes the train is too late and cancels their waitlist ticket. 
+// Remove them from the end.
+
+// An emergency VIP passenger "Neha" arrives. She gets top priority, so add her to the very front of the waiting list.
+
+// sol:
+let waitingList = ["Aman", "Rahul", "Priya"];
+waitingList.shift();
+waitingList.push("Rohan");
+waitingList.pop();
+waitingList.unshift("Neha");
+console.log("final list: ", waitingList);
+
+
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
