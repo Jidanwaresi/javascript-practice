@@ -255,8 +255,25 @@
 // console.log(forwardStack);
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 14. Clipboard Copy-Paste
 
+// You are building a Clipboard (Copy-Paste) feature.
 
+// let clipboard = ["Hello", "World", "React"];
+// let documentText = ["I am learning"];
+
+// Task: The user presses "Ctrl + V" (Paste). 
+// This action should remove the most recently copied item from the clipboard (the last item) and instantly add it to the very end of the documentText.
+// Rule: You must use the optimization trick (method inside a method) in a single line. No hardcoding. Print both arrays.
+
+// Sol:
+// let clipboard = ["Hello", "World", "React"];
+// let documentText = ["I am learning"];
+// documentText.push(clipboard.pop());
+// console.log(clipboard);
+// console.log(documentText);
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+
