@@ -336,3 +336,20 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 18. Delivery Loading (Penalty 5 - Method inside Method)
+
+// You are managing a delivery system.
+// let warehouse = ["Order 1", "Order 2"];
+// let truck = ["Order 3"];
+// Task:
+// Load the oldest order from the warehouse (the very front item) and put it at the very front of the truck. 
+// Use the one-line optimization trick. Print both arrays.
+
+// // sol:
+// let warehouse = ["Order 1", "Order 2"];
+// let truck = ["Order 3"];
+// truck.unshift(warehouse.shift());
+// console.log(warehouse);
+// console.log(truck);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
