@@ -289,8 +289,27 @@
 // Print both arrays.
 
 // sol:
-let drafts = ["Draft 1", "Draft 2", "Important Email"];
-let outbox = ["Old Email"];
-outbox.unshift(drafts.pop());
-console.log(drafts);
-console.log(outbox);
+// let drafts = ["Draft 1", "Draft 2", "Important Email"];
+// let outbox = ["Old Email"];
+// outbox.unshift(drafts.pop());
+// console.log(drafts);
+// console.log(outbox);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+// 16. Video Render Queue (Penalty 3 - Method inside Method)
+
+// You are building a video editing software.
+// let renderQueue = ["Vlog.mp4", "Gaming.mp4"];
+// let completed = ["Intro.mp4"];
+// Task: 
+// The software finishes rendering the first video in the queue (the very first item).
+// Remove it from the front of renderQueue and instantly add it to the end of the completed array. 
+// Use the one-line optimization trick. Print both arrays.
+
+// // sol:
+// let renderQueue = ["Vlog.mp4", "Gaming.mp4"];
+// let completed = ["Intro.mp4"];
+// completed.push(renderQueue.shift());
+// console.log(renderQueue);
+// console.log(completed);
