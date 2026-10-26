@@ -386,3 +386,15 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 21. Chat History (Beginner - reverse)
+
+// A messaging app stores messages from oldest to newest.
+// Current list:
+// let messages = ["Hi", "How are you?", "I am good"];
+// Task: The UI needs to display them from newest to oldest (latest message at the top).
+// Use the reverse() method to flip the array order and print the updated list.
+
+// Sol:
+// let messages = ["Hi", "How are you?", "I am good"];
+// messages.reverse();
+// console.log(messages);
