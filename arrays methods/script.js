@@ -468,4 +468,32 @@
 // console.log(names);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
 
+// *** (Mixed Challenge 1/10) ***
+
+// 26. E-commerce Cart & Wishlist 
+
+// You are building an e-commerce app.
+// let cart = ["Shoes", "Watch", "Bag"]; let wishlist = [];
+
+// Task:
+// The user adds "Sunglasses" to the very end of their cart.
+
+// The user decides to save the first item in the cart for later.
+// Remove it from the front of the cart and instantly add it to the front of the wishlist. 
+// (You MUST use the one-line optimization trick here!).
+
+// Finally, sort the cart alphabetically (A-Z) so the user can view items easily.
+// Write the code sequentially for these 3 steps and print both arrays.
+
+// // Sol:
+// let cart = ["Shoes", "Watch", "Bag"]; 
+// let wishlist = [];
+// cart.push("Sunglasses");
+// wishlist.unshift(cart.shift());
+// cart.sort();
+// console.log("Cart: ", cart);
+// console.log("Wishlist: ", wishlist);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
