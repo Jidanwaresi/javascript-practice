@@ -398,3 +398,22 @@
 // let messages = ["Hi", "How are you?", "I am good"];
 // messages.reverse();
 // console.log(messages);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+// 22. Delete Multiple Corrupted Files (Intermediate - splice)
+
+// You are building a file manager app. 
+// You found a sequence of corrupted files that need to be deleted.
+// let files = ["file1.txt", "file2.txt", "corrupt1.txt", "corrupt2.txt", "corrupt3.txt", "file3.txt"];
+// You have these variables:let startIndex = 2;let deleteCount = 3;
+// Task: 
+// Use the splice() method with these variables to remove exactly 3 corrupted files starting from the startIndex.
+// You do not need to add any new items this time. Print the updated files array.
+
+// sol:
+let files = ["file1.txt", "file2.txt", "corrupt1.txt", "corrupt2.txt", "corrupt3.txt", "file3.txt"];
+let startIndex = 2, deleteCount = 3;
+files.splice(startIndex,deleteCount);
+console.log(files)
+
