@@ -412,8 +412,27 @@
 // You do not need to add any new items this time. Print the updated files array.
 
 // sol:
-let files = ["file1.txt", "file2.txt", "corrupt1.txt", "corrupt2.txt", "corrupt3.txt", "file3.txt"];
-let startIndex = 2, deleteCount = 3;
-files.splice(startIndex,deleteCount);
-console.log(files)
+// let files = ["file1.txt", "file2.txt", "corrupt1.txt", "corrupt2.txt", "corrupt3.txt", "file3.txt"];
+// let startIndex = 2, deleteCount = 3;
+// files.splice(startIndex,deleteCount);
+// console.log(files)
 
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// 23. High Score Leaderboard (Intermediate - sort)
+
+// You are building a game where the highest scores should appear at the very top.
+// Current scores:let scores = [45, 90, 12, 78];
+// Task: Sort the scores array in descending order (highest to lowest) using the sort() method and 
+// print the updated array.
+// (Hint: sort() by default treats items as strings, which can cause bugs when sorting numbers. 
+// To sort numbers correctly, you need to pass a compare function (a, b) => ... inside it. 
+// Think about how you can subtract them to get the descending order!)
+
+// // Sol:
+// let scores = [45, 90, 12, 78];
+// scores.sort((a,b)=> b-a);
+// console.log(scores);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
