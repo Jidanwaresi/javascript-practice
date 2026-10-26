@@ -454,3 +454,18 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 25. Z-A Directory (Beginner - sort & reverse)
+
+// You are building a directory where names must be displayed in reverse alphabetical order (Z to A).
+// let names = ["Charlie", "Alice", "Bob"];
+// Task: First, use the sort() method to arrange the names from A to Z. 
+// Then, immediately use the reverse() method to flip the sorted array so it becomes Z to A. 
+// Print the updated array
+
+// sol:
+// let names =["Charlie", "Alice", "Bob"];
+// names.sort().reverse();
+// console.log(names);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
