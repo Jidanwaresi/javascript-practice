@@ -436,3 +436,21 @@
 // console.log(scores);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 24. Insert Menu Item (Intermediate - splice)
+
+// You are managing a cafe menu.let menu = ["Coffee", "Tea", "Cake"];
+// You want to add "Sandwich" exactly between "Coffee" and "Tea". 
+// You have: let insertIndex = 1;
+// Task:
+// Use the splice() method with the given variable to insert "Sandwich" at the insertIndex without deleting any existing items. 
+// Print the updated menu array.
+
+// // sol:
+// let menu = ["Coffee", "Tea", "Cake"];
+// let insertIndex = 1;
+// menu.splice(insertIndex,0,"Sandwich");
+// console.log(menu);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
