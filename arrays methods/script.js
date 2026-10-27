@@ -615,10 +615,41 @@
 // console.log(openTabs);
 // console.log(bookmarks);
 
-
-
-
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// 31. Social Media Notification Center (Mixed Challenge 6/10)
+
+// You are managing a social media app's notification center.
+
+// let notifications = ["Like", "Comment", "Share", "Follow"];
+// let priorityQueue = ["System Alert"];let removeIndex = 1;
+
+// Task:
+// An urgent event happens at the very end of notifications. 
+// Remove the last notification from notifications and instantly add it to the front (beginning) of priorityQueue. (Use the one-line optimization trick!).
+
+// A system cleanup removes the obsolete notification currently at removeIndex.
+// Use splice() with the variable to remove only that single item from notifications (do not add anything new).
+
+// Finally, reverse the notifications array so the user sees their remaining notifications in reverse order.
+
+// Write the code sequentially for these 3 steps and print both arrays.
+
+
+// sol:
+// let notifications = ["Like", "Comment", "Share", "Follow"];
+// let priorityQueue = ["System Alert"];
+// let removeIndex = 1;
+
+// priorityQueue.unshift(notifications.pop());
+// notifications.splice(removeIndex,1);
+// notifications.reverse();
+
+// console.log(notifications);
+// console.log(priorityQueue);
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
