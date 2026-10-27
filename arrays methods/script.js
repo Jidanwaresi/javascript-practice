@@ -554,6 +554,40 @@
 // console.log(completed);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 29. Playlist Customization (Mixed Challenge 4/10)
+
+// You are managing a music app playlist.
+// let playlist = ["Song A", "Song B", "Song C", "Song D"];
+// let favorites = [];
+// let dropIndex = 2;
+
+// Task:
+
+// The user really loves the very last song in the playlist. 
+// Remove it from the end of playlist and instantly add it to the front (beginning) of the favorites array. (Use the one-line trick!).
+
+// The user dislikes the song that is currently at dropIndex.
+// Use splice() with the variable to remove only that one song from the playlist (do not add anything new).
+
+// Finally, the user wants to listen to the remaining playlist in backward order. Use reverse() on the playlist.
+
+// Write the code sequentially for these 3 steps and print both arrays.
+
+
+// Sol:
+let playlist = ["Song A", "Song B", "Song C", "Song D"];
+let favorites = [];
+let dropIndex = 2;
+
+favorites.unshift(playlist.pop());
+playlist.splice(dropIndex,1);
+playlist.reverse();
+console.log("Current playlist: ", playlist);
+console.log("fav list: ", favorites);
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
