@@ -651,6 +651,36 @@
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 32. Customer Support Ticket Queue (Mixed Challenge 7/10)
+
+// You are managing a tech support ticket system.
+// let tickets = ["Ticket 101", "Ticket 102", "Ticket 103", "Ticket 104"];
+// let urgentQueue = ["Ticket 99"];let replaceIndex = 1;
+
+// Task:
+// The ticket at the very front of tickets gets escalated. 
+// Remove it from the front of tickets and instantly add it to the front (beginning) of urgentQueue (Use the one-line optimization trick!).
+
+// A customer updates their request at replaceIndex. 
+// Use splice() with the variable to remove the current ticket at that position and replace it with "Ticket 105".
+
+// Reverse the tickets array so the team reviews them in reverse order.
+
+// sol:
+
+// let tickets = ["Ticket 101", "Ticket 102", "Ticket 103", "Ticket 104"];
+// let urgentQueue = ["Ticket 99"]; let replaceIndex = 1;
+
+// urgentQueue.unshift(tickets.shift());
+// tickets.splice(replaceIndex,1,"Ticket 105");
+// tickets.reverse();
+
+// console.log(tickets);
+// console.log(urgentQueue);
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
