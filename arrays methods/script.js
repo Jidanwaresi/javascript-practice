@@ -576,19 +576,48 @@
 
 
 // Sol:
-let playlist = ["Song A", "Song B", "Song C", "Song D"];
-let favorites = [];
-let dropIndex = 2;
+// let playlist = ["Song A", "Song B", "Song C", "Song D"];
+// let favorites = [];
+// let dropIndex = 2;
 
-favorites.unshift(playlist.pop());
-playlist.splice(dropIndex,1);
-playlist.reverse();
-console.log("Current playlist: ", playlist);
-console.log("fav list: ", favorites);
-
-
+// favorites.unshift(playlist.pop());
+// playlist.splice(dropIndex,1);
+// playlist.reverse();
+// console.log("Current playlist: ", playlist);
+// console.log("fav list: ", favorites);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 30. Browser Tabs Management (Mixed Challenge 5/10)
+
+// You are building a web browser's tab manager.
+// let openTabs = ["Google", "YouTube", "GitHub", "Twitter"];
+// let bookmarks = ["StackOverflow"];let replaceIndex = 2;
+
+// Task:
+// The user bookmarks the very first tab. 
+// Remove it from the front of openTabs and instantly add it to the very end of bookmarks (Use the one-line optimization trick!).
+
+// The user navigates to a new site on the tab at replaceIndex. 
+// Use splice() and the variable to remove the current site at that index and insert "LinkedIn" in its exact place.
+
+// Sort the bookmarks array alphabetically (A-Z) so they are easy to find.
+
+
+// sol:
+
+// let openTabs = ["Google", "YouTube", "GitHub", "Twitter"];
+// let bookmarks = ["StackOverflow"], replaceIndex = 2;
+
+// bookmarks.push(openTabs.shift());
+// openTabs.splice(replaceIndex,1,"LinkedIn");
+// bookmarks.sort();
+// console.log(openTabs);
+// console.log(bookmarks);
+
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
