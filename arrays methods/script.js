@@ -497,3 +497,29 @@
 // console.log("Wishlist: ", wishlist);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 27. Text Editor Undo & History (Mixed Challenge 2/10)
+
+// You are building a text editor's history feature.
+// let actions = ["Type A", "Type B", "Delete", "Type C"];
+// let undoStack = []; let errorIndex = 1;
+
+// Task:
+// The user presses "Undo".
+// Remove the last action from actions and instantly add it to the very end of undoStack (Use the one-line optimization trick!).
+
+// The system detects a corrupted log at errorIndex. 
+// Use splice() with the variable to remove that single action from the actions array. 
+// (Do not replace it with anything, just delete it).
+
+// Finally, the user wants to see their history from newest to oldest. Use reverse() on the actions array.
+// Write the code sequentially for these 3 steps and print both arrays!
+
+// sol:
+// let actions = ["Type A", "Type B", "Delete", "Type C"];
+// let undoStack = []; let errorIndex = 1;
+// undoStack.push(actions.pop());
+// actions.splice(errorIndex,1);
+// actions.reverse();
+// console.log(actions);
+// console.log(undoStack);
