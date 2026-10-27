@@ -710,8 +710,11 @@
 // Use the concat() method to merge server1Data and server2Data into a single new array called allUsers. 
 // Print allUsers to verify the combined result.
 
-
-
+// sol:
+// let server1Data = ["User A", "User B"];
+// let server2Data = ["User C", "User D"];
+// let allUsers = server1Data.concat(server2Data);
+// console.log(allUsers);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
