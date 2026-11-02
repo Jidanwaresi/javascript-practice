@@ -793,10 +793,30 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 39. Deep Nested API Data (Question 8/10 - flat)
 
+// Sometimes API data is deeply nested, with arrays inside arrays inside arrays!
+// let deepData = [1, [2, [3, 4]], 5];
 
+// Task:
+// Use the flat() method to completely flatten this array into a single level.
+// Hint: By default, 
+// flat() only goes 1 level deep. 
 
+// To go deeper, you can pass the depth level (like 2) or simply pass Infinity inside the parentheses flat(Infinity) to flatten it completely no matter how deep it is!
+
+// Store the result in a variable named flatData and print it.
+
+// sol:
+// let deepData = [1, [2, [3, 4]], 5];
+// let flatData = deepData.flat(Infinity);
+// console.log(flatData);
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
