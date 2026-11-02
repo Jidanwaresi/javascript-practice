@@ -738,8 +738,48 @@
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 36. E-commerce Price Filter (Question 4/10 - filter)
+
+// English: You are building a store filtering feature.
+// let prices = [150, 45, 800, 20, 120];
+
+// Task: 
+// Use the filter() method to create a new array called affordableProducts that only contains prices that are strictly less than 100. 
+// Print the affordableProducts array.
+
+// sol:
+// let prices = [150, 45, 800, 20, 120]
+// let affordableProducts= prices.filter((n)=>n<100);
+// console.log(affordableProducts);
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 37. Flatten API Data (Question 5/10 - flat)
+
+// You received some messy category data from an API where some items are grouped inside inner arrays.
+// let apiData = [["Phones", "Tablets"], ["Laptops"], "Smartwatches"];
+
+// Task: 
+// Use the flat() method to break these nested arrays and merge everything into a single, one-dimensional array called cleanData. 
+// Print the cleanData array.
+
+
+// sol:
+
+//  let apiData = [["Phones", "Tablets"], ["Laptops"], "Smartwatches"];
+//  let cleanData = apiData.flat();
+//  console.log(cleanData);
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
