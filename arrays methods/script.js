@@ -777,7 +777,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-// 39. Username Validation (Question 7/10 - filter)
+// 38. Username Validation (Question 7/10 - filter)
 
 // You are building a user registration system. Valid usernames must be at least 5 characters long.
 // let usernames = ["sam", "jidan_dev", "ali", "jidanwaresi", "max"];
