@@ -815,7 +815,21 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// 40. Filter & Bonus Marks (Question 9/10 - filter + map chaining)
 
+// You are grading students. You want to find only the students who passed, and give them a 5-mark bonus.
+// let marks = [35, 85, 92, 40, 78];
+
+// Task:
+// First, 
+// use filter() to get only the marks that are 50 or above (pass marks).
+// Immediately chain .map() after it to add 5 bonus marks to each of those passed marks.
+// Store the final result in a new array called finalMarks and print it.
+
+// sol:
+// let marks = [35, 85, 92, 40, 78];
+// let finalMarks = marks.filter((n)=> n>=50).map((n)=> n+5);
+// console.log(finalMarks);
 
 
 
