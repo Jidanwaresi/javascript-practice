@@ -834,3 +834,16 @@
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// 41. Active Users List (Question 10/10 - filter + map with Objects)
+
+// In real web apps (like React),
+// you almost always deal with arrays of objects.
+// let users = [{name: "Jidan", isActive: true}, {name: "Ali", isActive: false}, {name: "Sam", isActive: true}];
+
+// Task:
+
+// Use filter() to get only the user objects where isActive is true.
+// Chain .map() to extract only the name property from those filtered objects.
+// Store the result in a variable called activeNames and print it.
