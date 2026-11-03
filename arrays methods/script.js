@@ -858,7 +858,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// React Pattern 1: Immutable Delete (Question 43)
+// React Pattern 1: Immutable Delete (Question 42)
 
 // In modern JavaScript and React, 
 // you should never use splice() to delete an item from an array because it changes (mutates) the original array. 
@@ -879,5 +879,36 @@
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+// React Pattern 2: Immutable Update (Question 43)
 
+// When updating a specific item in an array (like checking off a to-do list), 
+// we don't mutate the object directly. Instead, we use map() to loop through, 
+// find the specific item by its ID, and return a new updated object for that item, while returning the rest exactly as they are.
 
+// let tasks = [
+//   { id: 1, text: "Learn JS", done: true },
+//   { id: 2, text: "Learn React", done: false },
+//   { id: 3, text: "Learn Node", done: false }
+// ];
+
+// let updateId = 2;
+
+// Task: 
+// Use the map() method to create a new array called updatedTasks. 
+// If a task's id matches the updateId, change its done status to true. 
+// Otherwise, keep the task unchanged. Print updatedTasks.
+
+// sol:
+
+// let tasks = [
+//   { id: 1, text: "Learn JS", done: true },
+//   { id: 2, text: "Learn React", done: false },
+//   { id: 3, text: "Learn Node", done: false }
+// ];
+
+// let updateId = 2;
+
+// let updatedTasks = tasks.map( (task) => task.id===updateId ? {...task,done:true} : task );
+// console.log(updatedTasks);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
