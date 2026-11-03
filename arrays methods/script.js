@@ -847,3 +847,37 @@
 // Use filter() to get only the user objects where isActive is true.
 // Chain .map() to extract only the name property from those filtered objects.
 // Store the result in a variable called activeNames and print it.
+
+
+// // sol:
+// let users = [{name: "Jidan", isActive: true}, {name: "Ali", isActive: false}, {name: "Sam", isActive: true}];
+// let activeNames = users.filter((user)=>user.isActive===true).map((user)=>user.name);
+// console.log(activeNames);
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// React Pattern 1: Immutable Delete (Question 43)
+
+// In modern JavaScript and React, 
+// you should never use splice() to delete an item from an array because it changes (mutates) the original array. 
+// Instead, we "delete" by filtering out the unwanted item!
+
+// let postIds = [101, 102, 103, 104];
+// let deleteId = 103;
+
+// Task: 
+// Use the filter() method to create a new array called remainingPosts that contains all the post IDs except the one that matches deleteId. Print remainingPosts.
+
+// sol:
+
+// let postIds = [101, 102, 103, 104];
+// let deleteId = 103;
+// let remainingPosts = postIds.filter((n)=> n!==deleteId);
+// console.log(remainingPosts);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
