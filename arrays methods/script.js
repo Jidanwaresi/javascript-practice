@@ -912,3 +912,37 @@
 // console.log(updatedTasks);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// React Pattern 3: Shopping Cart Quantity Increase (Question 44 - Foundation Final)
+
+// You are building an e-commerce shopping cart. 
+// When a user clicks the "+" button on a product, you want to increase its quantity without mutating the original array.
+
+// JavaScript
+// let cart = [
+//   { id: "p1", name: "Keyboard", quantity: 1 },
+//   { id: "p2", name: "Mouse", quantity: 2 },
+//   { id: "p3", name: "Monitor", quantity: 1 }
+// ];
+
+// let targetId = "p1";
+
+// Task: 
+// Use map() and the spread operator (...) to create a new array updatedCart. 
+// Find the product with id === targetId and increase its quantity by 1 (i.e., item.quantity + 1). 
+// Keep all other products unchanged. Print updatedCart.
+
+// sol:
+
+// let cart = [
+//   { id: "p1", name: "Keyboard", quantity: 1 },
+//   { id: "p2", name: "Mouse", quantity: 2 },
+//   { id: "p3", name: "Monitor", quantity: 1 }
+// ];
+
+// let targetId = "p1";
+// let updatedCart = cart.map( (cart)=>cart.id===targetId ? {...cart, quantity: cart.quantity+1} : cart );
+// console.log(updatedCart);
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
