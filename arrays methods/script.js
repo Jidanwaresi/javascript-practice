@@ -1080,3 +1080,34 @@
 // console.log(updatedFeed);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+//Next methods-Practic with (find,every,)
+
+//Challenge 1: Product Detail Lookup (find)
+
+// let products = [
+//   { id: 101, name: "Laptop", price: 50000 },
+//   { id: 102, name: "Phone", price: 20000 },
+//   { id: 103, name: "Tablet", price: 15000 }
+// ];
+
+// let selectedId = 102;
+
+// sol:
+// let selectedProduct = products.find((product)=> product.id===selectedId);
+// console.log(selectedProduct);
+
+
+// Challenge 2: Cart Validation (every)
+
+// let cartItems = [
+//   { id: 1, name: "Keyboard", inStock: true },
+//   { id: 2, name: "Mouse", inStock: true },
+//   { id: 3, name: "Monitor", inStock: false }
+// ];
+
+// sol:
+// let isReadyToCheckout = cartItems.every((item)=> item.inStock===true);
+// console.log(isReadyToCheckout);
+
+
