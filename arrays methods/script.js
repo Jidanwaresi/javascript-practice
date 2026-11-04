@@ -946,3 +946,62 @@
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Extra Practice 1: Like a Post
+// You have a list of posts on a social media app. 
+// When a user double-clicks a post, its "like" 'status' should change to true.
+
+
+// let posts = [
+//   {id: 1, title: "JS Array", isLiked: false}, 
+//   {id: 2, title: "React State", isLiked: false}
+// ];
+
+// let targetPostId = 1;
+
+// Task: 
+// Use map() and the spread operator (...) to create a new array called updatedPosts. 
+// Find the post where the id matches targetPostId, and change its isLiked status to true. 
+// Keep other posts exactly as they are, 
+// Print updatedPosts
+
+// sol:
+// let posts = [
+//   {id: 1, title: "JS Array", isLiked: false}, 
+//   {id: 2, title: "React State", isLiked: false}
+// ];
+
+// let targetPostId = 1;
+// let updatedPosts = posts.map( (post)=>post.id===targetPostId ? {...post, isLiked:true} : post );
+// console.log(updatedPosts);
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+// Extra Practice 2: Increase Player Score
+// In a gaming leaderboard, you need to update a specific player's score by adding bonus points.
+
+// JavaScript
+// let players = [
+//   {id: "p1", name: "Ali", score: 50}, 
+//   {id: "p2", name: "Sam", score: 80}
+// ];
+// let targetPlayerId = "p2";
+
+// Task: Use map() and the spread operator (...) to create a new array called updatedPlayers. 
+// Find the player where the id matches targetPlayerId, and add 10 to their current score (i.e., player.score + 10). 
+// Keep the other player unchanged. Print updatedPlayers.
+
+// sol:
+
+// let players = [
+//   {id: "p1", name: "Ali", score: 50}, 
+//   {id: "p2", name: "Sam", score: 80}
+// ];
+
+// let targetPlayerId = "p2";
+// let updatedPlayers = players.map((player)=>player.id===targetPlayerId ? {...player, score:player.score+10} : player);
+// console.log(updatedPlayers);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
