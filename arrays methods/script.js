@@ -1005,3 +1005,32 @@
 // console.log(updatedPlayers);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// Twist 1: Toggle Status (Immutable Toggle)
+
+// let todos = [
+//   { id: 1, text: "Learn React", done: false },
+//   { id: 2, text: "Practice JS", done: true }
+// ];
+
+// let targetId = 1;
+
+// Task: 
+// Use map() and the spread operator (...) to create a new array called updatedTodos. 
+// Find the todo item where id === targetId and toggle its done 'status' using !todo.done (so false becomes true, and vice versa). 
+// Keep all other items unchanged. 
+// Print updatedTodos.
+
+// sol:
+// let todos = [
+//   { id: 1, text: "Learn React", done: false },
+//   { id: 2, text: "Practice JS", done: true }
+// ];
+
+// let targetId = 1;
+
+// let updatedTodos = todos.map((todo)=>todo.id===targetId ? {...todo, done:!todo.done} : todo);
+// console.log(updatedTodos);
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
