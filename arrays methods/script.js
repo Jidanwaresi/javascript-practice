@@ -1059,3 +1059,24 @@
 // console.log(discountedProducts);
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+//CREATE
+
+// Task 1: Add Item to the End (Push Alternative)
+// let tasks = [
+//   { id: 1, text: "Learn JS" }
+// ];
+// let newTask = { id: 2, text: "Learn React" };
+
+// let updatedTasks = [...tasks, newTask];
+// console.log(updatedTasks);
+
+
+// Task 2 (Add Item to the Beginning)
+// let feed = [
+//   { id: 2, text: "Second Post" }
+// ];
+// let newPost = { id: 1, text: "First Post" };
+// let updatedFeed = [newPost, ...feed];
+// console.log(updatedFeed);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
