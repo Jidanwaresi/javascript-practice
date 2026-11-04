@@ -1034,3 +1034,28 @@
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// // Twist 2: Bulk Update (No Condition Needed)
+
+// // let products = [
+// //   { id: 1, name: "Shirt", price: 500 },
+// //   { id: 2, name: "Pant", price: 800 }
+// // ];
+
+// // Task: 
+// // Use map() and the spread operator (...) to create a new array called discountedProducts. 
+// // Reduce the price of every product by 100 (i.e., product.price - 100). 
+// // Since this update applies to all items, you do not need any condition (if or ? :). 
+// // Print discountedProducts.
+
+// sol:
+
+// let products = [
+//   { id: 1, name: "Shirt", price: 500 },
+//   { id: 2, name: "Pant", price: 800 }
+// ];
+
+// let discountedProducts = products.map((product)=>({...product, price:product.price-100}));
+// console.log(discountedProducts);
+
+/////////////////////////////////////////////////////////////////////////////////////////////
