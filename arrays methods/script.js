@@ -1111,3 +1111,77 @@
 // console.log(isReadyToCheckout);
 
 
+// // Challenge 3: Check for Out of Stock (some)
+
+// let cartItems = [
+//   { id: 1, name: "Keyboard", inStock: true },
+//   { id: 2, name: "Mouse", inStock: true },
+//   { id: 3, name: "Monitor", inStock: false}
+// ];
+
+// sol:
+// let hasOutOfStockItems = cartItems.some((item)=> !item.inStock);
+// console.log(hasOutOfStockItems);
+
+
+
+// //Challenge 4: User Role Authorization 
+
+// let userRoles = ["user", "editor", "moderator"];
+// let requiredRole = "admin";
+
+// sol:
+// let isAdmin = userRoles.includes(requiredRole);
+// console.log(isAdmin);
+
+
+
+// Challenge 5: Calculate Total Cart Bill
+// let cart = [
+//   { id: 1, name: "Keyboard", price: 1500 },
+//   { id: 2, name: "Mouse", price: 500 },
+//   { id: 3, name: "Monitor", price: 8000 }
+// ];
+
+// sol:
+// let totalBill = cart.reduce((acc,val)=>acc+val.price,0);
+// console.log("Total : ", totalBill);
+
+
+// // Challenge 6: Cart Badge Notification
+// let cart = [
+//   { id: 1, name: "Book", qty: 2 },
+//   { id: 2, name: "Pen", qty: 5 },
+//   { id: 3, name: "Notebook", qty: 1 }
+// ];
+
+// // sol:
+// let totalItems = cart.reduce((acc,val)=>acc+val.qty, 0);
+// console.log(totalItems);
+
+// // Challenge 7: Form Validation
+
+// let formSteps = [
+//   { step: 1, title: "Personal Info", isCompleted: true },
+//   { step: 2, title: "Address", isCompleted: true },
+//   { step: 3, title: "Payment", isCompleted: false }
+// ];
+
+// let canSubmit = formSteps.every((step)=>!step.isCompleted);
+// console.log(canSubmit);
+
+
+// // Challenge 8: Premium Feature Check
+// let userCart = [
+//   { id: 101, name: "Basic Mouse", isPremium: false },
+//   { id: 102, name: "Pro Keyboard", isPremium: true }
+// ];
+// let showFreeShippingBanner = userCart.some((subs)=>subs.isPremium===true);
+// console.log(showFreeShippingBanner);
+
+// // Challenge 9: Tag Search Filter
+
+// let allowedTags = ["react", "javascript", "css", "frontend"];
+// let searchTag = "html";
+// let isValidTag = allowedTags.includes(searchTag);
+// console.log(isValidTag);
